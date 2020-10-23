@@ -1,0 +1,25 @@
+<h1>Редактировать точку '{{place.properties.iconContent}}'</h1>
+
+<form action="/places/edit" method="post">
+    <div class="input-field">
+        <input id="title" name="name" type="text" class="validate" required value="{{place.properties.iconContent}}">
+        <label for="title">Название места</label>
+        <span class="helper-text" data-error="Введите название места"></span>
+    </div>
+
+    <div class="input-field">
+        <input id="price" name="longitude" type="text" class="validate" required  value="{{longitude}}">
+        <label for="price">Широта</label>
+        <span class="helper-text" data-error="Введите широту"></span>
+    </div>
+
+    <div class="input-field">
+        <input id="img" name="latitude" type="text" class="validate" required value="{{latitude}}">
+        <label for="img">Долгота</label>
+        <span class="helper-text" data-error="Введите долготу"></span>
+    </div>
+
+    <input type="hidden" name="id" value="{{place.id}}">
+
+    <button class="btn btn-primary">Редактировать место</button>
+</form>

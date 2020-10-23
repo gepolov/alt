@@ -1,0 +1,87 @@
+.nav-wrapper {
+    padding: 0 4rem;
+}
+
+nav .brand-logo {
+    color: ghostwhite;
+    padding: 0 4rem;
+}
+
+* {
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 60%;
+}
+.content {
+    flex: 1 0 auto;
+}
+.page-footer {
+    flex: 0 0 auto;
+    padding-top: 9px;
+}
+
+.price {
+    font-size: 2rem;
+}
+
+.course {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course h1 {
+    margin-bottom: 2rem;
+}
+
+.course img {
+    max-width: 600px;
+    height: auto;
+}
+
+.course .price.big {
+    font-size: 2.5rem;
+}
+
+.card-action.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row.metka {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#placesTable {
+    display: inline-block;
+    min-height: 500px;
+}
+
+#map {
+    position: absolute;
+    left: 670px;
+    top: 209px;
+}
+
+.course-form {
+    margin-bottom: 2rem;
+}
+
+.btn.btn-primary {
+    margin-bottom: 10px;
+}
+
+.auth {
+    padding-top: 1rem;
+}
